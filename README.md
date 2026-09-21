@@ -25,7 +25,7 @@ Prérequis : Go 1.20 ou plus, et un terminal qui gère l'UTF-8 et les couleurs A
 go run .
 
 # ou compiler puis lancer
-go build -o projet-red
+go build -o projet-red.exe
 ./projet-red.exe          # projet-red.exe sous Windows
 
 # ou si problème d'autorisation
