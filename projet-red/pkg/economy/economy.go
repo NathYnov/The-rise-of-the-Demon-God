@@ -113,19 +113,19 @@ func MenuLivresSorts(p *character.Personnage) {
 	ui.ClearConsole()
 	ui.AfficherTitre("Marchand - Livres de Sorts")
 
-	fmt.Println("1. Livre de sort: Boule de Feu (25 PO) (Niv 1+)")
-	fmt.Println("2. Livre de sort: Soin Magique (30 PO) (Niv 2+)")
-	fmt.Println("3. Livre de sort: Éclair Céleste (60 PO) (Niv 4+)")
+	fmt.Println("1. Livre de sort: Boule de Feu (100 PO) (Niv 1+)")
+	fmt.Println("2. Livre de sort: Soin Magique (500 PO) (Niv 2+)")
+	fmt.Println("3. Livre de sort: Éclair Céleste (1000 PO) (Niv 4+)")
 	fmt.Println("0. Retour")
 
 	choix := ui.LireEntree("\nVotre choix : ")
 	switch choix {
 	case "1":
-		AcheterObjet(p, "Livre de sort: Boule de Feu", 25, 1)
+		AcheterObjet(p, "Livre de sort: Boule de Feu", 100, 1)
 	case "2":
-		AcheterObjet(p, "Livre de sort: Soin Magique", 30, 2)
+		AcheterObjet(p, "Livre de sort: Soin Magique", 500, 2)
 	case "3":
-		AcheterObjet(p, "Livre de sort: Éclair Céleste", 60, 4)
+		AcheterObjet(p, "Livre de sort: Éclair Céleste", 1000, 4)
 	}
 }
 
