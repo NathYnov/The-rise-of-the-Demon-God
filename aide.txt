@@ -1,7 +1,10 @@
+lancement du jeu normalement:
 go build -o projet-red.exe
 
 ./projet-red.exe
 
+
+si probleme d'autorisation:
 mkdir -p tmp
 
 GOTMPDIR=$(pwd)/tmp go run main.go
