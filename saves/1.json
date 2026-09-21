@@ -1,0 +1,36 @@
+{
+  "Nom": "1",
+  "Race": "Humain",
+  "Niveau": 1,
+  "XP": 0,
+  "MaxXP": 100,
+  "PV": 100,
+  "MaxPV": 100,
+  "Mana": 50,
+  "MaxMana": 50,
+  "Attaque": 12,
+  "Defense": 5,
+  "Dexterite": 10,
+  "Or": 100,
+  "Inventaire": [
+    "Potion de soin"
+  ],
+  "MaxInventaire": 10,
+  "NbAmeliorations": 0,
+  "Stuff": {
+    "Tete": "",
+    "Torse": "",
+    "Arme": ""
+  },
+  "Sorts": [
+    {
+      "Nom": "Coup de Poing",
+      "Degats": 10,
+      "Soin": 0,
+      "CoutMana": 5
+    }
+  ],
+  "BuffAttaque": 0,
+  "BuffDefense": 0,
+  "NGPlus": 0
+}
