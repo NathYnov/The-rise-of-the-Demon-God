@@ -1,0 +1,9 @@
+go build -o projet-red.exe
+
+./projet-red.exe
+
+mkdir -p tmp
+
+GOTMPDIR=$(pwd)/tmp go run main.go
+```
+
