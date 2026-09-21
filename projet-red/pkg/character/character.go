@@ -250,13 +250,13 @@ func (p *Personnage) UtiliserObjet(nom string, index int) {
 		p.RetirerObjetIndex(index)
 	// les livres apprennent un sort puis disparaissent
 	case "Livre de sort: Boule de Feu":
-		p.AjouterSort(Sort{Nom: "Boule de Feu", Degats: 25, CoutMana: 15})
+		p.AjouterSort(Sort{Nom: "Boule de Feu", Degats: 50, CoutMana: 50})
 		p.RetirerObjetIndex(index)
 	case "Livre de sort: Soin Magique":
-		p.AjouterSort(Sort{Nom: "Soin Magique", Soin: 35, CoutMana: 20})
+		p.AjouterSort(Sort{Nom: "Soin Magique", Soin: 100, CoutMana: 100})
 		p.RetirerObjetIndex(index)
 	case "Livre de sort: Éclair Céleste":
-		p.AjouterSort(Sort{Nom: "Éclair Céleste", Degats: 45, CoutMana: 30})
+		p.AjouterSort(Sort{Nom: "Éclair Céleste", Degats: 500, CoutMana: 500})
 		p.RetirerObjetIndex(index)
 	default:
 		fmt.Println("Cet objet ne peut pas être consommé ici ou est réservé au combat / forgeron.")
