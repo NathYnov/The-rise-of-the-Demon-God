@@ -25,8 +25,8 @@ Prérequis : Go 1.20 ou plus, et un terminal qui gère l'UTF-8 et les couleurs A
 go run .
 
 # ou compiler puis lancer
-go build -o projet-red
-./projet-red          # projet-red.exe sous Windows
+go build -o projet-red.exe
+./projet-red.exe          # projet-red.exe sous Windows
 ```
 
 Le jeu doit être lancé depuis la racine du projet, car le dossier `saves/` est relatif à l'endroit où on l'exécute.
