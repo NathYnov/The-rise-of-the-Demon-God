@@ -1,0 +1,47 @@
+{
+  "Nom": "Test",
+  "Race": "Dragonoïde",
+  "Niveau": 8,
+  "XP": 71,
+  "MaxXP": 1050,
+  "PV": 205,
+  "MaxPV": 410,
+  "Mana": 110,
+  "MaxMana": 110,
+  "Attaque": 71,
+  "Defense": 46,
+  "Dexterite": 19,
+  "Or": 662,
+  "Inventaire": [
+    "Potion de soin",
+    "Potion de soin",
+    "Potion de Force (Buff Atk)",
+    "Fourrure de loup",
+    "Potion d'Armure (Buff Def)",
+    "Potion d'Armure (Buff Def)",
+    "Potion de mana",
+    "Peau de troll",
+    "Grande Potion de soin",
+    "Grande Potion de soin",
+    "Minerai de Mithril",
+    "Minerai de Mithril"
+  ],
+  "MaxInventaire": 40,
+  "NbAmeliorations": 3,
+  "Stuff": {
+    "Tete": "Casque en Fer (Niv 6)",
+    "Torse": "Armure en Mithril (Niv 6)",
+    "Arme": "Lame de Mithril (Niv 6)"
+  },
+  "Sorts": [
+    {
+      "Nom": "Coup de Poing",
+      "Degats": 10,
+      "Soin": 0,
+      "CoutMana": 5
+    }
+  ],
+  "BuffAttaque": 0,
+  "BuffDefense": 0,
+  "NGPlus": 0
+}
