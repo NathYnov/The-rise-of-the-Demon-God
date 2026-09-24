@@ -1,0 +1,12 @@
+	case "Roi Gobelin":
+		fmt.Println("« Le Roi Gobelin s'effondre dans un dernier râle. Sans leader,")
+		fmt.Println("les gobelins rescapés s'enfuient terrifiés dans les sous-bois.")
+		fmt.Println("La voie vers les montagnes et la caverne est désormais dégagée. »")
+	case "Seigneur Troll":
+		fmt.Println("« Dans un fracas assourdissant, le Seigneur Troll s'écroule, terrassé.")
+		fmt.Println("L'écho des cavernes s'apaise et une lourde porte en pierre s'ouvre,")
+		fmt.Println("révélant le chemin menant vers les sommets volcaniques. »")
+	case "Dragon Ancien":
+		fmt.Println("« Le Dragon Ancien pousse un ultime rugissement avant de s'éteindre.")
+		fmt.Println("Dans un flash de lumière, le dernier sceau se brise. Au loin,")
+		fmt.Println("la barrière magique protégeant l'Antre du Dieu Démon s'effondre complètement. »")
